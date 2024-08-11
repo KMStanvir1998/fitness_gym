@@ -19,7 +19,7 @@ header{
 .nav-container{
     display: flex;
     justify-content: space-between;
-    margin: 0px 5%;
+    margin: 0px 10%;
 }
 .nav-title{
     color: #E6533C;
@@ -54,7 +54,7 @@ ul.nav-link {}
 /*banner section style */
 .font-style{}
 .banner-section{
-    margin: 0px 5%;
+    margin: 0px 10%;
     display: flex;
     justify-content: space-between;
 }
