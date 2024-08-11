@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -52,7 +54,11 @@ ul.nav-link {}
 /*navbar style*/
 
 /*banner section style */
-.font-style{}
+.font-style{
+    font-family: "Dancing Script", cursive;
+    font-size: 65px;
+    font-weight: 900;
+}
 .banner-section{
     margin: 0px 10%;
     display: flex;
@@ -134,3 +140,49 @@ ul.nav-link {}
     color: #ffffff96;
 }
 /*banner section style */
+
+/* habit section style */
+.habits-section{
+    background-color: #000000;
+    padding-bottom: 50px;
+}
+.habit-title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 48px;
+    text-align: center;
+    padding-top: 50px;
+}
+.habit-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.habit-details{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.habit-part{
+    text-align: center;
+    margin: 0 5%;
+}
+.habit-part > img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.habit-part-name{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.habit-more-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+/* habit section style */
