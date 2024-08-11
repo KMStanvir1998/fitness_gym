@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+}
+/*navrbar style*/
+.navbar-section{
+    background: linear-gradient(90deg, rgba(17,17,17,1) 0%, rgba(17,17,17,0.6923144257703081) 50%, rgba(17,17,17,1) 100%);
+    width: 100%;
+    height: 645px;
+    margin: 0;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5%;
+}
+.nav-title{
+    color: #E6533C;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.nav-menu{margin-top: 10px;}
+.nav-link{
+    list-style: none;
+    display: flex;
+    border: 1px solid #ffffff2e;
+    border-radius: 30px;
+    align-items: center;
+}
+
+ul.nav-link {}
+.nav-item{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 45px;
+    color: #FFFFFF;
+}
+
+#home-button{
+    background-color: #E6533C;
+    border-radius: 19px;
+    padding: 12px 20px;
+}
+/*navbar style*/
+
+/*banner section style */
+.font-style{}
+.banner-section{
+    margin: 0px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-left{}
+.banner-title{
+    font-size: 65px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-bottom: 28px;
+}
+.banner-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff80;
+    margin-bottom: 28px;
+}
+.button-part{
+    display: flex;
+    align-items: center;
+}
+.btn-primary{
+    background-color: #E6533C;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+}
+.simple-button{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sticker-one{
+    background-color: rgb(255 255 255 / 12%);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-left: -60px;
+    margin-top: -125px;
+    border: none;
+    position: relative;
+}
+.sticker-two{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 8%;
+    background-color: rgb(255 255 255 / 12%);
+    border-radius: 8px;
+    padding: 15px 20px;
+}
+.circle{
+    background-color: #E6533C;
+    border: 1px solid #E6533C;
+    border-radius: 50%;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
+.tutorial{
+}
+.tutorial-number{
+    font-size: 24px;
+    color: #ffffff;
+}
+.tutorial-text{
+    font-size: 12px;
+    color: #ffffff96;
+}
+/*banner section style */
