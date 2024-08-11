@@ -15,13 +15,13 @@ header{
 .navbar-section{
     background: linear-gradient(90deg, rgba(17,17,17,1) 0%, rgba(17,17,17,0.6923144257703081) 50%, rgba(17,17,17,1) 100%);
     width: 100%;
-    height: 645px;
+    height: 635px;
     margin: 0;
 }
 .nav-container{
     display: flex;
     justify-content: space-between;
-    margin: 0px 10%;
+    margin: 0px 15%;
 }
 .nav-title{
     color: #E6533C;
@@ -39,6 +39,9 @@ header{
 }
 
 ul.nav-link {}
+.nav-link a{
+    text-decoration: none;
+}
 .nav-item{
     font-size: 18px;
     font-weight: 600;
@@ -60,7 +63,7 @@ ul.nav-link {}
     font-weight: 900;
 }
 .banner-section{
-    margin: 0px 10%;
+    margin: 0px 15%;
     display: flex;
     justify-content: space-between;
 }
@@ -100,6 +103,8 @@ ul.nav-link {}
     padding: 12px 20px;
     margin-left: 10px;
     cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
 }
 .sticker-one{
     background-color: rgb(255 255 255 / 12%);
@@ -145,6 +150,7 @@ ul.nav-link {}
 .habits-section{
     background-color: #000000;
     padding-bottom: 50px;
+    padding-top: 100px;
 }
 .habit-title{
     color: rgba(255, 255, 255, 1);
@@ -186,3 +192,43 @@ ul.nav-link {}
     text-align: center;
 }
 /* habit section style */
+
+/* joining section style*/
+.joining-section{
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.joining-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15%;
+    background-color: rgba(34, 34, 34, 1);
+    margin: 5% 17%;
+    padding: 30px 30px;
+    gap: 265px;
+    border-radius: 15px;
+    align-items: center;
+}
+.joining-details{
+}
+.joining-title{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.joining-text{
+    color: #ffffff82;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.joining-image{}
+.joining-image > img{
+    width: 21.8rem;
+    height: 18.6rem;
+    object-fit: cover;
+    border-radius: 18px;
+}
+/* joining section style*/
