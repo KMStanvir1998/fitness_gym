@@ -1,103 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-body{
-    font-family: "Inter", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"); @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"); body {
+    font-family: Inter, sans-serif;
     font-optical-sizing: auto;
 }
-*{
-    margin: 0;
-    padding: 0;
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
-header{
+
+header {
 }
-/*navrbar style*/
-.navbar-section{
-    background: linear-gradient(90deg, rgba(17,17,17,1) 0%, rgba(17,17,17,0.6923144257703081) 50%, rgba(17,17,17,1) 100%);
+
+.navbar-section {
+    background: linear-gradient(90deg, rgb(17, 17, 17) 0%, rgba(17, 17, 17, 0.694) 50%, rgb(17, 17, 17) 100%);
     width: 100%;
     height: 635px;
-    margin: 0;
+    margin: 0px;
 }
-.nav-container{
+
+.nav-container {
     display: flex;
     justify-content: space-between;
     margin: 0px 15%;
 }
-.nav-title{
-    color: #E6533C;
+
+.nav-title {
+    color: rgb(230, 83, 60);
     font-size: 36px;
     font-weight: 800;
     margin-top: 10px;
 }
-.nav-menu{margin-top: 10px;}
-.nav-link{
+
+.nav-menu {
+    margin-top: 10px;
+}
+
+.nav-link {
     list-style: none;
     display: flex;
-    border: 1px solid #ffffff2e;
+    border: 1px solid rgba(255, 255, 255, 0.18);
     border-radius: 30px;
     align-items: center;
 }
 
-ul.nav-link {}
-.nav-link a{
-    text-decoration: none;
-}
-.nav-item{
-    font-size: 18px;
-    font-weight: 600;
-    padding: 0 45px;
-    color: #FFFFFF;
+ul.nav-link {
 }
 
-#home-button{
-    background-color: #E6533C;
+.nav-link a {
+    text-decoration: none;
+}
+
+.nav-item {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 45px;
+    color: rgb(255, 255, 255);
+}
+
+#home-button {
+    background-color: rgb(230, 83, 60);
     border-radius: 19px;
     padding: 12px 20px;
 }
-/*navbar style*/
 
-/*banner section style */
-.font-style{
+.font-style {
     font-family: "Dancing Script", cursive;
     font-size: 65px;
     font-weight: 900;
 }
-.banner-section{
+
+.banner-section {
     margin: 0px 15%;
     display: flex;
     justify-content: space-between;
 }
-.banner-left{}
-.banner-title{
+
+.banner-left {
+}
+
+.banner-title {
     font-size: 65px;
     font-weight: 900;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
     margin-top: 60px;
     margin-bottom: 28px;
 }
-.banner-text{
+
+.banner-text {
     font-size: 16px;
     font-weight: 400;
-    color: #ffffff80;
+    color: rgba(255, 255, 255, 0.5);
     margin-bottom: 28px;
 }
-.button-part{
+
+.button-part {
     display: flex;
     align-items: center;
 }
-.btn-primary{
-    background-color: #E6533C;
+
+.btn-primary {
+    background-color: rgb(230, 83, 60);
     border-radius: 20px;
     padding: 10px 20px;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 400;
     cursor: pointer;
     border: none;
 }
-.simple-button{
-    color: #FFFFFF;
-    border: 1px solid #FFFFFF;
+
+.simple-button {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
     background: transparent;
     border-radius: 20px;
     padding: 12px 20px;
@@ -106,8 +120,9 @@ ul.nav-link {}
     font-size: 18px;
     font-weight: 400;
 }
-.sticker-one{
-    background-color: rgb(255 255 255 / 12%);
+
+.sticker-one {
+    background-color: rgba(255, 255, 255, 0.12);
     display: flex;
     gap: 10px;
     align-items: center;
@@ -118,117 +133,252 @@ ul.nav-link {}
     border: none;
     position: relative;
 }
-.sticker-two{
+
+.sticker-two {
     position: absolute;
     margin-left: 10%;
     margin-top: 8%;
-    background-color: rgb(255 255 255 / 12%);
+    background-color: rgba(255, 255, 255, 0.12);
     border-radius: 8px;
     padding: 15px 20px;
 }
-.circle{
-    background-color: #E6533C;
-    border: 1px solid #E6533C;
+
+.circle {
+    background-color: rgb(230, 83, 60);
+    border: 1px solid rgb(230, 83, 60);
     border-radius: 50%;
     display: inline-block;
     height: 25px;
     width: 25px;
 }
-.tutorial{
-}
-.tutorial-number{
-    font-size: 24px;
-    color: #ffffff;
-}
-.tutorial-text{
-    font-size: 12px;
-    color: #ffffff96;
-}
-/*banner section style */
 
-/* habit section style */
-.habits-section{
-    background-color: #000000;
+.tutorial {
+}
+
+.tutorial-number {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.tutorial-text {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.59);
+}
+
+/*habit section style*/
+.habits-section {
+    background-color: rgb(0, 0, 0);
     padding-bottom: 50px;
     padding-top: 100px;
 }
-.habit-title{
-    color: rgba(255, 255, 255, 1);
+
+.habit-title {
+    color: rgb(255, 255, 255);
     font-size: 48px;
     text-align: center;
     padding-top: 50px;
 }
-.habit-text{
+
+.habit-text {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     text-align: center;
 }
-.habit-details{
+
+.habit-details {
     display: flex;
     margin-top: 50px;
     justify-content: center;
     align-items: center;
 }
-.habit-part{
+
+.habit-part {
     text-align: center;
-    margin: 0 5%;
+    margin: 0px 5%;
 }
-.habit-part > img{
+
+.habit-part > img {
     border-radius: 50%;
     margin-bottom: 10px;
 }
-.habit-part-name{
-    color: rgba(255, 255, 255, 1);
+
+.habit-part-name {
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
     text-align: center;
     margin-bottom: 10px;
 }
-.habit-more-text{
+
+.habit-more-text {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
     text-align: center;
 }
-/* habit section style */
+/*habit section style*/
 
-/* joining section style*/
-.joining-section{
-    background-color: #000000;
+/*joining section style */
+.joining-section {
+    background-color: rgb(0, 0, 0);
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.joining-container{
+
+.joining-container {
     display: flex;
     justify-content: space-around;
-    margin: 0 15%;
-    background-color: rgba(34, 34, 34, 1);
+    background-color: rgb(34, 34, 34);
     margin: 5% 17%;
-    padding: 30px 30px;
+    padding: 30px;
     gap: 265px;
     border-radius: 15px;
     align-items: center;
 }
-.joining-details{
+
+.joining-details {
 }
-.joining-title{
-    color: #ffffff;
+
+.joining-title {
+    color: rgb(255, 255, 255);
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 10px;
 }
-.joining-text{
-    color: #ffffff82;
+
+.joining-text {
+    color: rgba(255, 255, 255, 0.51);
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 10px;
 }
-.joining-image{}
-.joining-image > img{
+
+.joining-image {
+}
+
+.joining-image > img {
     width: 21.8rem;
     height: 18.6rem;
     object-fit: cover;
     border-radius: 18px;
 }
-/* joining section style*/
+/*joining section style */
+
+/*training section style */
+.training-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+.training-container {
+}
+.training-part{display: flex;flex-direction: column;margin-left: 17%;}
+.trainging-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.training-text {
+    color: rgba(255, 255, 255, 0.41);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 58px;
+}
+
+.row {
+    height: 200px;
+    display: flex;
+    margin: 0px 17%;
+}
+
+.img-one-bg {
+    background-image: linear-gradient(0deg, rgb(6 255 210 / 48%) 50%, rgb(6 255 210 / 46%) 50%), url(../images/exercise1.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.img-one-text{
+    color: #ffffff;
+    font-size: 14px;
+    bottom: -80%;
+    position: relative;
+    right: -5%;
+}
+.img-two-bg {
+    background-image: linear-gradient(0deg, rgb(255 0 0 / 49%) 30%, rgb(255 0 0 / 49%) 30%), url(../images/exercise2.png);
+    width: 150%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.img-two-text{
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 10px;
+    position: relative;
+    bottom: -10%;
+    right: -1%;
+}
+.img-three-bg {
+    background-image: linear-gradient(0deg, rgb(0 0 0 / 63%) 50%, rgb(0 0 0 / 63%) 50%), url(../images/exercise3.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.img-three-text{
+    color: #ffffff;
+    font-size: 14px;
+    position: relative;
+    margin-left: 10px;
+    bottom: -70%;
+    left: 5%;
+}
+.img-four-bg {
+    background-image: linear-gradient(0deg, rgb(0 0 0 / 62%) 50%, rgb(0 0 0 / 62%) 50%), url(../images/exercise4.png);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.img-four-text{
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 10px;
+    position: relative;
+    bottom: -10%;
+}
+.img-five-bg {
+    background-image: linear-gradient(0deg, rgb(66 255 0 / 35%) 30%, rgb(66 255 0 / 35%) 30%), url(../images/exercise5.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.img-five-text{
+    color: #ffffff;
+    font-size: 14px;
+    position: relative;
+    margin-left: 10px;
+    bottom: -70%;
+}
+.img-six-bg {
+    background-image: linear-gradient(0deg, rgb(0 71 255 / 48%) 30%, rgb(0 71 255 / 48%) 30%), url(../images/exercise6.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.img-six-text{
+    color: #ffffff;
+    font-size: 14px;
+    position: relative;
+    margin-left: 10px;
+    bottom: -70%;
+}
+/*training section style */
