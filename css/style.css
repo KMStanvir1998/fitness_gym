@@ -520,3 +520,99 @@ input::placeholder {
     margin-left: 10px;
 }
 /* bmi calculate section */
+
+/*team section style*/
+.team-section{
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.team-title{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.team-text{
+    color: rgba(255, 255, 255, 0.41);
+    text-align: center;
+    margin-bottom: 58px;
+}
+.team-container{
+    margin: 0 17%;
+    background-color: #191919;
+}
+.trainer-image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 35px 35px;
+    
+    border-radius: 20px;
+}
+.trainner-one-img{
+    background-image: url(../images/trainer1.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.trainner-two-img{
+    background-image: url(../images/trainer2.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.trainner-three-img{
+    background-image: url(../images/trainer3.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.trainner-four-img{
+    background-image: url(../images/trainer4.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.trainner-five-img{
+    background-image: url(../images/exercise5.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.trainner-six-img{
+    background-image: url(../images/trainer6.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.trainner-name{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+.trainner-title{
+    color: #ffffffb3;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+/*team section style*/
