@@ -8,9 +8,8 @@
     padding: 0px;
 }
 
-header {
-}
 
+/* navber and header style */
 .navbar-section {
     background: linear-gradient(90deg, rgb(17, 17, 17) 0%, rgba(17, 17, 17, 0.694) 50%, rgb(17, 17, 17) 100%);
     width: 100%;
@@ -173,7 +172,9 @@ ul.nav-link {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.59);
 }
+/* navber and header style */
 
+/* habit section style */
 .habits-section {
     background-color: rgb(0, 0, 0);
     padding-bottom: 50px;
@@ -225,7 +226,9 @@ ul.nav-link {
     font-weight: 400;
     text-align: center;
 }
+/* habit section style */
 
+/*joining section style */
 .joining-section {
     background-color: rgb(0, 0, 0);
     padding-top: 100px;
@@ -269,6 +272,9 @@ ul.nav-link {
     object-fit: cover;
     border-radius: 18px;
 }
+/*joining section style */
+
+/*training & bmi section style*/ 
 
 .training-section {
     padding-top: 100px;
@@ -403,6 +409,7 @@ ul.nav-link {
     bottom: -70%;
 }
 
+
 .bmi-content {
     width: 100%;
 }
@@ -425,7 +432,9 @@ ul.nav-link {
     font-size: 14px;
     margin: auto;
 }
+/*training & bmi section style*/ 
 
+/*bmi calculate section style*/ 
 .bmi-calculate-section {
     background-color: rgb(34, 34, 34);
     padding-bottom: 80px;
@@ -531,7 +540,21 @@ input::placeholder {
 #btn-calculate {
     margin-left: 10px;
 }
+.first-arrow{}
+.first-arrow > i{
+    color: #ffffff;
+    margin-left: -6%;
+}
+.second-arrow{
+}
+.second-arrow i{
+    color: #ffffff;
+    margin-left: -6%;
+}
 
+/*bmi calculate section style*/
+
+/* team section style */
 .team-section {
     background-color: rgb(0, 0, 0);
     padding-top: 100px;
@@ -638,6 +661,9 @@ input::placeholder {
     margin-left: 10px;
 }
 
+/* team section style */
+
+/* footer part */
 footer {
     background-color: rgb(25, 25, 25);
     padding-bottom: 80px;
@@ -714,3 +740,4 @@ border: 0 none;
     font-size: 20px;
     font-weight: 300;
 }
+/* footer part */

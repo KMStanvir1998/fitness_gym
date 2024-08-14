@@ -98,6 +98,14 @@
         /* margin-left: 6px; */
         /* margin-right: 6px; */
     }
+    .second-arrow i {
+        color: #ffffff;
+        margin-left: -10%;
+    }
+    .first-arrow > i {
+        color: #ffffff;
+        margin-left: -10%;
+    }
     /* bmi calculate section */
     /*joining section*/
     .img-three-bg{
